@@ -1,0 +1,4 @@
+#!/bin/bash
+# setup-environment
+
+TEMPLATECONF=$(pwd)/conf source poky/oe-init-build-env "$@"

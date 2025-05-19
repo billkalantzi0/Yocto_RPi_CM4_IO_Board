@@ -1,0 +1,12 @@
+# Yocto build and cache dirs
+build/
+downloads/
+sstate-cache/
+cache/
+tmp/
+
+# Backup and temporary files
+*~
+*.swp
+*.log
+*.bak
