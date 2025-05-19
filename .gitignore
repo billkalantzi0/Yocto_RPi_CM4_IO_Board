@@ -1,5 +1,5 @@
 # Yocto build and cache dirs
-build/
+#build/
 downloads/
 sstate-cache/
 cache/
