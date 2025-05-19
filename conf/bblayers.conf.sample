@@ -1,12 +1,13 @@
-# conf/bblayers.conf.sample
+# bblayers.conf.sample (CM4 layers configuration)
+
 LCONF_VERSION = "7"
 
 BBPATH = "${TOPDIR}"
 BBFILES ?= ""
 
 BBLAYERS ?= " \
-  ${TOPDIR}/../meta-rpi \
   ${TOPDIR}/../poky/meta \
   ${TOPDIR}/../poky/meta-poky \
   ${TOPDIR}/../poky/meta-yocto-bsp \
-  "
+  ${TOPDIR}/../meta-raspberrypi \
+"

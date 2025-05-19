@@ -1,4 +1,4 @@
 #!/bin/bash
-# setup-environment
+# setup-environment: Initializes Yocto environment for CM4 build
 
 TEMPLATECONF=$(pwd)/conf source poky/oe-init-build-env "$@"
